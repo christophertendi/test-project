@@ -14,16 +14,12 @@ export default function Home() {
     <>
       <Navbar />
       <Container fluid>
-        <div className="text-center fs-4 mt-3 mb-3">
-          Promo: Up to 30% off all beverages till 30th of July
+         <div className="text-center fs-4 mt-3 mb-3">
+          Random Text
         </div>
         <div className="text-center fs-4 mt-3 mb-3">
-          New Menu
+          Kalau mau taro gallery bisa dibikin begini
         </div>
-        <a class="btn btn-outline-dark btn-floating m-1 text-center" href="#!" role="button">
-          Order
-        </a>
-        {/* images are from https://www.pexels.com/ free stock photo website */}
         <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <figure class = "figure">
@@ -86,7 +82,7 @@ export default function Home() {
             <figcaption class="figure-caption">Chocolate Cake</figcaption>
           </figure>
         </div>
-    </div>
+    </div> 
     </Container>
     <footer class="bg-secondary text-center text-white">
       <div class="container p-4 pb-0">
@@ -103,17 +99,18 @@ export default function Home() {
         </section>
       </div>
       <div class="text-center p-3">
-         Location: Kelapa Gading 
+         Location
       </div>
       <div class="text-center p-3">
-         Open Everyday: 10a.m. - 9p.m.
+         Opening Times
       </div>
       <form>
         <div class="text-start p-3">
           <label>Feedback</label>
           <input type="email" class="form-control" placeholder="Give your feedback"></input>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary mb-4">Submit</button>
+
       </form>
 
     </footer>

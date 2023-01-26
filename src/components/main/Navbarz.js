@@ -11,11 +11,11 @@ export default function Navbarz() {
   return (
     <Navbar bg="secondary" expand="sm">
         <Navbar.Brand className ="ms-3 text-white" as={Link} to = "/">
-          <h1 className="display-5">Mr X's Coffee Shop</h1>
+          <h1 className="display-5">Nama Koperasi</h1>
         </Navbar.Brand>
-      <Nav className="justify-content-end me-4" style={{ width: "100%" }}>
-        <div className="lead fs-4 text-white ">Contact: 081122334455</div>
-      </Nav>
+        <Nav.Link as={Link} to="/form.htm" style={{ width: "100%" }}>
+          <div className="lead fs-4 text-white justify-content-end me-4">Form</div>
+        </Nav.Link>
     </Navbar>
   )
 }
